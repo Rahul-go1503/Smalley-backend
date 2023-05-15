@@ -17,10 +17,10 @@ app.use(cors());
 //   next();
 // }
 // app.use(myMiddleware);
-// app.use('/',(req,res)=>{
-//   res.send('hello!! Im here...')
+app.use('/',(req,res)=>{
+  res.send('hello!! Im here...')
 
-// })
+})
 app.use("/books", bookRoute); // localhost:5000/books
 // app.use("/blogs", blogRoute); // localhost:5000/books
 // frkHFNZZDONtwOOD
