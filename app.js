@@ -6,9 +6,9 @@ const cors = require("cors");
 const app = express();
 
 // Middlewares
-if(process.env !== "Production"){
+// if(process.env !== "Production"){
   require("dotenv").config();
-}
+// }
 app.use(express.json());
 app.use(cors());
 // var i=0;
